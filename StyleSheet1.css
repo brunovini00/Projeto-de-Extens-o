@@ -1,6 +1,6 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
 
-* {
+*, .banner, .card {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
@@ -38,6 +38,7 @@
     background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(IMG/livros_1.jpg) ;
     background-size: cover;
     background-position: center;
+    font-family: sans-serif;
 }
 
 .logo {
@@ -96,6 +97,8 @@
 
 .content h2 {
     margin-top: -20px;
+    font-family: sans-serif;
+
 }
 
 button {
