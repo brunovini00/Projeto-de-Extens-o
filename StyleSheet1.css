@@ -86,20 +86,7 @@
     width: 100%;
 }
 
-.content {
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-    color: #fff;
-}
 
-.content h2 {
-    margin-top: -20px;
-    font-family: sans-serif;
-
-}
 
 button {
     width: 200px;
@@ -124,7 +111,7 @@ span {
     position: absolute;
     left: 0;
     bottom: 0;
-    z-index: -1;
+    z-index: 0;
     transition: 0.3s;
 }
 
@@ -146,9 +133,22 @@ button:hover {
     max-width: 950px;
     width: 100%;
     overflow: hidden;
-    padding: 80px 0;
+    padding: 40px 0;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
 }
+
+.container h1{
+    padding: 15px;
+    color: #000;
+    border: 3px solid #009688;
+    border-radius: 10px;
+}
+
 .container .main-card{
     display: flex;
     justify-content: space-evenly;
@@ -216,6 +216,7 @@ button:hover {
 .card .contentUs .name{
     font-size: 20px;
     font-weight: 500;
+    color: #000;
 }
 .card .contentUs .job{
     font-size: 20px;
