@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSS", "CSS", "{B9EA8995-059A-45ED-88B1-75020BBFCA21}"
+	ProjectSection(SolutionItems) = preProject
+		StyleSheet1.css = StyleSheet1.css
+		StyleSheet2.css = StyleSheet2.css
+		StyleSheet3.css = StyleSheet3.css
+		StyleSheet4.css = StyleSheet4.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IMG", "IMG", "{85647700-41A7-4036-9092-5D2EAE277415}"
+	ProjectSection(SolutionItems) = preProject
+		IMG\backend.jpg = IMG\backend.jpg
+		IMG\banco de dados.jpg = IMG\banco de dados.jpg
+		IMG\banco_dados.jpg = IMG\banco_dados.jpg
+		IMG\banco_dados_1.jpg = IMG\banco_dados_1.jpg
+		IMG\banco_de_dados.jpg = IMG\banco_de_dados.jpg
+		IMG\c#.jpg = IMG\c#.jpg
+		IMG\c#_leigos.jpg = IMG\c#_leigos.jpg
+		IMG\c_leigo.jpg = IMG\c_leigo.jpg
+		IMG\doacao.jpg = IMG\doacao.jpg
+		IMG\Doar.jpg = IMG\Doar.jpg
+		IMG\doar_1.jpg = IMG\doar_1.jpg
+		IMG\frontend.jpg = IMG\frontend.jpg
+		IMG\html.jpg = IMG\html.jpg
+		IMG\html_css.jpg = IMG\html_css.jpg
+		IMG\livros.jpg = IMG\livros.jpg
+		IMG\livros_1.jpg = IMG\livros_1.jpg
+		IMG\logo.png = IMG\logo.png
+		IMG\LogoTransparente.png = IMG\LogoTransparente.png
+		IMG\Precisamos_Voluntarios.jpg = IMG\Precisamos_Voluntarios.jpg
+		IMG\trabalho.jpg = IMG\trabalho.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JS", "JS", "{96FA4CC8-7E02-4373-BEC1-CA21B400359C}"
+	ProjectSection(SolutionItems) = preProject
+		Script1.js = Script1.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D07B8FE5-62BF-40A9-AF6A-139DEE80FCF5}"
+	ProjectSection(SolutionItems) = preProject
+		HTMLPage1.html = HTMLPage1.html
+		HTMLPage2.html = HTMLPage2.html
+		HTMLPage3.html = HTMLPage3.html
+		HTMLPage4.html = HTMLPage4.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B12F798-BB49-4A78-93DE-13D5F82270C8}
+	EndGlobalSection
+EndGlobal

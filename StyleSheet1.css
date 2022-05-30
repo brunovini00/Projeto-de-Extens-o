@@ -1,0 +1,368 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@-webkit-keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+  
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.banner {
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(IMG/livros_1.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    width: 200px;
+    cursor: pointer;
+    margin-left: -120px;
+    margin-top: -25px;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: -25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: -15px;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+.content h2 {
+    margin-top: -20px;
+}
+
+button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+span {
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.3s;
+}
+
+button:hover span {
+    width: 100%;
+}
+
+button:hover {
+    border: none;
+}
+
+::selection{
+    background:	#009688;
+    color: #fff;
+}
+.container{
+    max-width: 950px;
+    width: 100%;
+    overflow: hidden;
+    padding: 80px 0;
+    margin: auto;
+}
+.container .main-card{
+    display: flex;
+    justify-content: space-evenly;
+    width: 500%;
+    transition: 1s;
+}
+#two:checked ~ .main-card{
+    margin-left: -100%;
+}
+#three:checked ~ .main-card{
+    margin-left: -200%;
+}
+#four:checked ~ .main-card{
+    margin-left: -300%;
+}
+#five:checked ~ .main-card{
+    margin-left: -400%;
+}
+.container .main-card .cards{
+    width: calc(100% / 2 - 10px);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 20px;
+    justify-content: space-between;
+}
+.main-card .cards .card{
+  width: calc(100% / 3 - 10px);
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.4s ease;
+
+  background: -webkit-gradient(linear, left top, right top, from(#fff), to(#d6fff9));
+    background: linear-gradient(to right, #fff 0%, #d6fff9 100%);
+    background-size: 400% 400%;
+    -webkit-animation: gradient 7s ease infinite;
+            animation: gradient 7s ease infinite;
+}
+.main-card .cards .card:hover{
+    transform: translateY(-15px);
+}
+.cards .card .contentUs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cards .card .contentUs .img{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    padding: 3px;
+    background: #009688;
+    margin-bottom: 14px;
+}
+.card .contentUs .img img{
+    height: 100%;
+    width: 100%;
+    border: 3px solid #ffff;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.card .contentUs .name{
+    font-size: 20px;
+    font-weight: 500;
+}
+.card .contentUs .job{
+    font-size: 20px;
+    color: #009688;
+}
+.card .contentUs .media-icons{
+    margin-top: 10px;
+    display: flex;
+}
+.media-icons a{
+    text-align: center;
+    line-height: 33px;
+    height: 35px;
+    width: 35px;
+    margin: 0 4px;
+    font-size: 14px;
+    color: #FFF;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    background: #009688;
+    transition: all 0.3s ease;
+}
+.media-icons a:hover{
+    color: #009688;
+    background-color: #fff;
+    border-color: #009688;
+}
+.container .buttonUs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.buttonUs label{
+    height: 15px;
+    width: 15px;
+    border-radius: 20px;
+    background: #009688;
+    margin: 0 4px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.buttonUs label.active{
+    width: 35px;
+}
+#one:checked ~ .buttonUs .one{
+    width: 35px;
+}
+#one:checked ~ .buttonUs .two{
+    width: 15px;
+}
+#one:checked ~ .buttonUs .three{
+    width: 15px;
+}
+#one:checked ~ .buttonUs .four{
+    width: 15px;
+}
+#one:checked ~ .buttonUs .five{
+    width: 15px;
+}
+#two:checked ~ .buttonUs .one{
+    width: 15px;
+}
+#two:checked ~ .buttonUs .two{
+    width: 35px;
+}
+#two:checked ~ .buttonUs .three{
+    width: 15px;
+}
+#two:checked ~ .buttonUs .four{
+    width: 15px;
+}
+#two:checked ~ .buttonUs .five{
+    width: 15px;
+}
+#three:checked ~ .buttonUs .one{
+    width: 15px;
+}
+#three:checked ~ .buttonUs .two{
+    width: 15px;
+}
+#three:checked ~ .buttonUs .three{
+    width: 35px;
+}
+#three:checked ~ .buttonUs .four{
+    width: 15px;
+}
+#three:checked ~ .buttonUs .five{
+    width: 15px;
+}
+#four:checked ~ .buttonUs .one{
+    width: 15px;
+}
+#four:checked ~ .buttonUs .two{
+    width: 15px;
+}
+#four:checked ~ .buttonUs .three{
+    width: 15px;
+}
+#four:checked ~ .buttonUs .four{
+    width: 35px;
+}
+#four:checked ~ .buttonUs .five{
+    width: 15px;
+}
+#five:checked ~ .buttonUs .one{
+    width: 15px;
+}
+#five:checked ~ .buttonUs .two{
+    width: 15px;
+}
+#five:checked ~ .buttonUs .three{
+    width: 15px;
+}
+#five:checked ~ .buttonUs .four{
+    width: 15px;
+}
+#five:checked ~ .buttonUs .five{
+    width: 35px;
+}
+input[type="radio"]{
+    display: none;
+}
+@media (max-width: 768px) {
+  .main-card .cards .card{
+    margin: 20px 0 10px 0;
+    width: calc(100% / 2 - 10px);
+}
+}
+@media (max-width: 600px) {
+  .main-card .cards .card{
+    /* margin: 20px 0 10px 0; */
+    width: 100%;
+  }
+}
+
+
+/* Personlizar scrollbar */
+*::-webkit-scrollbar {
+    width: 17px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #009688;
+    border-radius: 20px;
+    border: 3px solid #fff;
+}
+
+html {
+    scroll-behavior: smooth;    
+}
