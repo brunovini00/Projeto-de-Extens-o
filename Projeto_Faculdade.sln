@@ -40,12 +40,32 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JS", "JS", "{96FA4CC8-7E02-
 		Script1.js = Script1.js
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D07B8FE5-62BF-40A9-AF6A-139DEE80FCF5}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PDFs", "PDFs", "{D07B8FE5-62BF-40A9-AF6A-139DEE80FCF5}"
 	ProjectSection(SolutionItems) = preProject
+		PDFs\01. Introdução a Banco de Dados Autor Cláudio Leones Bazzi.pdf = PDFs\01. Introdução a Banco de Dados Autor Cláudio Leones Bazzi.pdf
+		PDFs\02. Prática de Banco de Dados Autor Thiago Alves Elias da Silva, Nádia Mendes dos Santos e Wilson de Oliveira Júnior.pdf = PDFs\02. Prática de Banco de Dados Autor Thiago Alves Elias da Silva, Nádia Mendes dos Santos e Wilson de Oliveira Júnior.pdf
+		PDFs\03. Introdução a banco de dados Autor Osvaldo Kotaro Takai, Isabel Cristina Italiano e João Eduardo Ferreira.pdf = PDFs\03. Introdução a banco de dados Autor Osvaldo Kotaro Takai, Isabel Cristina Italiano e João Eduardo Ferreira.pdf
+		PDFs\05. Banco de Dados - Relacionais e Não Relacionais Autor Universidade de Verdade..pdf = PDFs\05. Banco de Dados - Relacionais e Não Relacionais Autor Universidade de Verdade..pdf
+		PDFs\714 - ADS - 2022-1 - Cronograma.pdf = PDFs\714 - ADS - 2022-1 - Cronograma.pdf
+		PDFs\Apostila_Java_Web.PDF = PDFs\Apostila_Java_Web.PDF
+		PDFs\ApostilaJavascript-completo.pdf = PDFs\ApostilaJavascript-completo.pdf
+		PDFs\ApostilaLiguagemC++.pdf = PDFs\ApostilaLiguagemC++.pdf
+		PDFs\ApostilaLiguagemC.pdf = PDFs\ApostilaLiguagemC.pdf
+		PDFs\ApostilaLiguagemPHP.pdf = PDFs\ApostilaLiguagemPHP.pdf
+		PDFs\ApostilaPythonDevs.pdf = PDFs\ApostilaPythonDevs.pdf
+		PDFs\basico_python.pdf = PDFs\basico_python.pdf
+		PDFs\Curso_Lua_3.2.pdf = PDFs\Curso_Lua_3.2.pdf
 		HTMLPage1.html = HTMLPage1.html
 		HTMLPage2.html = HTMLPage2.html
 		HTMLPage3.html = HTMLPage3.html
 		HTMLPage4.html = HTMLPage4.html
+		PDFs\Java_e_BD.pdf = PDFs\Java_e_BD.pdf
+		PDFs\jquery_basico.pdf = PDFs\jquery_basico.pdf
+		PDFs\livro.pdf = PDFs\livro.pdf
+		PDFs\PHP_e_MYSQL.pdf = PDFs\PHP_e_MYSQL.pdf
+		PDFs\PowerBI.pdf = PDFs\PowerBI.pdf
+		PDFs\PROG_AVANCADA_JAVA_0405.pdf = PDFs\PROG_AVANCADA_JAVA_0405.pdf
+		PDFs\programandoComPascal.pdf = PDFs\programandoComPascal.pdf
 	EndProjectSection
 EndProject
 Global
